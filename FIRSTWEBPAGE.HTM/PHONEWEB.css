@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100;
+}
+body{
+    min-height: 100;
+    width: 100;
+    background-color: aqua;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#phone-gallery{
+    height: 190vh;
+    width: 100;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+
+}
+
+.phone-box{
+    display: grid;
+    grid-template-columns: repeat(2, ifr);
+    gap: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin: 30px;
+    width: 40%;
+    height: fit-content;
+}
+
+.phone-gallery-items{
+    text-align: center;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(227, 233, 231);
+
+
+}
+.phone-gallery-items img{
+    object-fit: cover;
+    height: 170px;
+    width: 180;
+
+}
+
+.phone-gallery-items h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.phone-gallery-items p{
+    font-size: 1rem;
+    font-size: medium;
+}
+
+.phone-gallery-items h5{
+    color: green;
+    padding: 0 10px;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+.phone-gallery-items button{
+    border: none;
+    background-color: yellow;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: ;
+
+}
+
+
+

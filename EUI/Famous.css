@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  background: radial-gradient(120% 120% at 20% 10%, #3b82ff 0%, #0d2f8f 45%, #08226a 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+/* THIS IS THE 1240 x 89 BOX FROM YOUR IMAGE */
+.navbar {
+  width: 1230px;
+  max-width: 85%;
+  height: 59px;
+  margin: 22px auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 3rem;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-weight: 780;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 35px;
+}
+
+.navbar nav a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 13px;
+}
+.navbar nav a:hover { color: white; }
+
+.btn-primary {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 85px 15px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.hero p {
+  margin-top: 22px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.65);
+}
+
+/* YELLOW CIRCLE AROUND GROWTH */
+.circled {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.circled::after {
+  content: "";
+  position: absolute;
+  left: -18px;
+  right: -18px;
+  top: -12px;
+  bottom: -14px;
+  border: 1.8px solid #E6FF00;
+  border-radius: 50%;
+  transform: rotate(-6deg);
+}
+
+.hero-buttons {
+  margin-top: 32px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn-white {
+  background: white;
+  color: #0b2a85;
+  border: none;
+  padding: 11px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: rgba(255,255,255,0.12);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 11px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.span img{
+    text-align: center;
+    font-size: medium;
+}
+
+.Trained{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:5rem;
+}
